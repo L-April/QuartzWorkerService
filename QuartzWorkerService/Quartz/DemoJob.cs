@@ -13,7 +13,7 @@ namespace QuartzWorkerService.Quartz
         {
             await Task.Run(() =>
             {
-                Console.WriteLine($"{DateTime.Now} - DemoJob运行了。。。");
+                Console.WriteLine($"{DateTime.Now} - DemoJob运行了。。。"); 
             });
         }
     }
